@@ -1,0 +1,104 @@
+*{
+    font-family: "roboto",sans-serif;
+
+}
+
+    .health-intro {
+        display:flex;
+        margin: 2% 10%;
+
+    }
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: aliceblue;
+	color: #240606;
+}
+
+ul {
+	display: flex;
+}
+
+li {
+	margin: 1rem;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #221f1f;
+}
+
+.logo {
+	padding: 1rem;
+	font-size: 18px;
+}
+   
+    .health-intro div {
+        display: flex;
+        justify-content: space-between;
+        padding: 3%;
+        line-height: 1.75;
+    }
+    
+    .health-intro div p {
+        width: 45%;
+        text-align: start;
+        font-weight: lighter;
+    }
+    
+    .health-intro h1 {
+        font-size: 36px;
+        padding: 2%;
+        font-weight: lighter;
+        color: #00b39b;
+    }
+    
+    .health-intro img {
+        width: 50px;
+    }
+    
+    /* Countries part */
+    .countries {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 2% 10%;
+    }
+    
+    .country {
+        margin-bottom: 2%;
+        border-radius: 2%;
+    }
+    
+    .country img {
+        border-top-left-radius: 2%;
+        border-top-right-radius: 2%;
+    }
+    
+    .country div {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 4%;
+    }
+    
+    .country div p {
+        color: #747474;
+    }
+    
+    .country div button {
+        color: #fff;
+        background-color: #3d83df;
+        border-radius: 5px;
+        height: 30px;
+        border: none;
+    }
+    
+    .country:hover {
+        box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+   } 
+
+  
